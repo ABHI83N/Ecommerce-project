@@ -16,7 +16,7 @@ const jwt = require("jsonwebtoken");
 
 mongoose
   .connect(
-    "mongodb+srv://shuklaabhishek890:Abhi@cluster0.w5e0dhz.mongodb.net/",
+    "mongodb+srv://enter your url",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -43,8 +43,8 @@ const sendVerificationEmail = async (email, verificationToken) => {
     //configure the email service
     service: "gmail",
     auth: {
-      user: "shuklaabhishek890@gmail.com",
-      pass: "ktkh qoor cmnm ehny",
+      user: "",
+      pass: "",
     },
   });
 
